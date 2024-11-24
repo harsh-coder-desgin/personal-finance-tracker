@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#balance {
+    margin-bottom: 40px;
+}
+
+.input-form {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form label, .input-form input, .input-form select {
+    margin: 10px;
+    padding: 5px;
+}
+
+#add-transaction-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-transaction-button:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    margin-bottom: 40px;
+}
+
+.chart-container canvas {
+    max-width: 100%;
+    width: 500px;
+}
+
+.transactions {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.transactions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
